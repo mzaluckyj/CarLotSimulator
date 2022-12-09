@@ -10,6 +10,7 @@ namespace CarLotSimulator
     {
         public Car()
         {
+            carLot.numberOfCars++;
         }
         public int Year { get; set; }
         public string Make { get; set; }
